@@ -1,0 +1,40 @@
+{
+  "name": "velitvoluptas",
+  "version": "1.0.0",
+  "description": "Node module for ethereum wallet address creation and validation",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CathrinePowlowski/velitvoluptas.git"
+  },
+  "engines": {
+    "node": ">=4.2.4"
+  },
+  "keywords": [
+    "aut",
+    "utility",
+    "blockchain",
+    "crypto",
+    "validator",
+    "in",
+    "wallet"
+  ],
+  "author": "JoSchuster",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CathrinePowlowski/velitvoluptas.git/issues"
+  },
+  "homepage": "https://github.com/CathrinePowlowski/velitvoluptas.git",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.0.5"
+  },
+  "dependencies": {
+    "crypto-js": "^3.1.9-1",
+    "ethers": "^3.0.8",
+    "keythereum": "^1.0.2"
+  }
+}
